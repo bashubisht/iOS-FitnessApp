@@ -3,9 +3,11 @@
 # INTRODUCTION
 The Personalized Fitness App addresses the challenge of irregular exercise routines and the lack of personalized fitness guidance in our fast-paced world. Many struggle to maintain consistent exercise habits due to busy schedules, motivational hurdles, and insufficient tailored support, impacting overall health and wellbeing. Our app provides customized workout plans, diet strategies, real-time progress tracking, and motivation-boosting features. By leveraging technology and data-driven personalization, the app empowers individuals to take control of their health and achieve a fitter, more vibrant lifestyle. It tackles common barriers such as time constraints and motivational blocks to support regular workouts.
 
-![App Screenshot](Images/Img1.png)
-![App Screenshot](Images/Img2.png)
 ![App Screenshot](Images/Img3.png)
+
+![App Screenshot](Images/Img1.png)
+
+![App Screenshot](Images/Img2.png)
 
 # TOOLS AND TECHNOLOGY
 iOS App Development:
