@@ -19,7 +19,8 @@ recommends optimal workouts for effective and personalized training sessions.
 2. Personalized Nutrition Guidance: By considering users' dietary preferences and specific requirements, the app offers bespoke meal plans and expert nutritional advice, ensuring a comprehensive approach to health and fitness.
 3. Live Progress Monitoring: Users access real-time metrics encompassing calorie expenditure, workout duration, weight fluctuations, and more. This live tracking feature
 facilitates on-the-spot adjustments to fitness plans, empowering users to optimize their routines for maximum effectiveness.
-4. DEVELOPMENT PROCESS
+
+4. DEVELOPMENT PROCESS   
 The app development process includes phases such as:
 1. Research and Planning: Conducting market research and defining user personas to understand users' needs and preferences.
 2. Design and Prototyping: Creating an intuitive user interface with mockups and prototypes for user testing and feedback.
