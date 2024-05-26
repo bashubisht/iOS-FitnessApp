@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BF2DA9F2AFABE610069C81A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DA9E2AFABE610069C81A /* AppDelegate.swift */; };
+		8BF2DAA32AFABE610069C81A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAA22AFABE610069C81A /* ViewController.swift */; };
+		8BF2DAA62AFABE610069C81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAA42AFABE610069C81A /* Main.storyboard */; };
+		8BF2DAA82AFABE640069C81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAA72AFABE640069C81A /* Assets.xcassets */; };
+		8BF2DAAB2AFABE640069C81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAA92AFABE640069C81A /* LaunchScreen.storyboard */; };
+		8BF2DAB32AFAC4F50069C81A /* MainNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAB22AFAC4F50069C81A /* MainNib.xib */; };
+		8BF2DAB72AFAF0720069C81A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAB62AFAF0720069C81A /* MainViewController.swift */; };
+		8BF2DABB2AFB36DE0069C81A /* ManageCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DABA2AFB36DE0069C81A /* ManageCollegeViewController.swift */; };
+		8BF2DABD2AFB52540069C81A /* ManageCollegeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DABC2AFB52540069C81A /* ManageCollegeView.xib */; };
+		8BF2DABF2AFB548D0069C81A /* ManageProgramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DABE2AFB548D0069C81A /* ManageProgramView.xib */; };
+		8BF2DAC12AFB553F0069C81A /* ManageCourseCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAC02AFB553F0069C81A /* ManageCourseCategoryView.xib */; };
+		8BF2DAC52AFB56E90069C81A /* ManageProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAC42AFB56E90069C81A /* ManageProgramViewController.swift */; };
+		8BF2DAC72AFB57110069C81A /* ManageCourseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAC62AFB57110069C81A /* ManageCourseCategoryViewController.swift */; };
+		8BF2DAC92AFB57260069C81A /* ManageCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAC82AFB57260069C81A /* ManageCourseViewController.swift */; };
+		8BF2DACB2AFB5D8F0069C81A /* ManageCourseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DACA2AFB5D8F0069C81A /* ManageCourseView.xib */; };
+		8BF2DACD2AFB62980069C81A /* AddCollegeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DACC2AFB62980069C81A /* AddCollegeView.xib */; };
+		8BF2DACF2AFB676A0069C81A /* AddCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DACE2AFB676A0069C81A /* AddCollegeViewController.swift */; };
+		8BF2DAD12AFB6A390069C81A /* ViewCollegeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAD02AFB6A390069C81A /* ViewCollegeView.xib */; };
+		8BF2DAD32AFB6A690069C81A /* ViewCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAD22AFB6A690069C81A /* ViewCollegeViewController.swift */; };
+		8BF2DAD52AFB6FB00069C81A /* UpdateCollegeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAD42AFB6FB00069C81A /* UpdateCollegeView.xib */; };
+		8BF2DAD72AFB6FED0069C81A /* UpdateCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAD62AFB6FED0069C81A /* UpdateCollegeViewController.swift */; };
+		8BF2DAD92AFB71750069C81A /* DeleteCollegeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAD82AFB71750069C81A /* DeleteCollegeView.xib */; };
+		8BF2DADB2AFB71C10069C81A /* DeleteCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DADA2AFB71C10069C81A /* DeleteCollegeViewController.swift */; };
+		8BF2DADD2AFBC59A0069C81A /* AddProgramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DADC2AFBC59A0069C81A /* AddProgramView.xib */; };
+		8BF2DADF2AFBC5CC0069C81A /* AddProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DADE2AFBC5CC0069C81A /* AddProgramViewController.swift */; };
+		8BF2DAE12AFBC5E60069C81A /* ViewProgramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAE02AFBC5E60069C81A /* ViewProgramView.xib */; };
+		8BF2DAE32AFBC5FE0069C81A /* ViewProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAE22AFBC5FE0069C81A /* ViewProgramViewController.swift */; };
+		8BF2DAE52AFBC61C0069C81A /* UpdateProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAE42AFBC61C0069C81A /* UpdateProgramViewController.swift */; };
+		8BF2DAE72AFBC6320069C81A /* UpdateProgramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAE62AFBC6320069C81A /* UpdateProgramView.xib */; };
+		8BF2DAE92AFBC64B0069C81A /* DeleteProgramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAE82AFBC64B0069C81A /* DeleteProgramView.xib */; };
+		8BF2DAEB2AFBC6630069C81A /* DeleteProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAEA2AFBC6630069C81A /* DeleteProgramViewController.swift */; };
+		8BF2DAED2AFBCA780069C81A /* AddCourseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAEC2AFBCA780069C81A /* AddCourseCategoryViewController.swift */; };
+		8BF2DAEF2AFBCA8C0069C81A /* AddCourseCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAEE2AFBCA8C0069C81A /* AddCourseCategoryView.xib */; };
+		8BF2DAF12AFBCAA10069C81A /* ViewCourseCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAF02AFBCAA10069C81A /* ViewCourseCategoryView.xib */; };
+		8BF2DAF32AFBCAB40069C81A /* ViewCourseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAF22AFBCAB40069C81A /* ViewCourseCategoryViewController.swift */; };
+		8BF2DAF52AFBCAC60069C81A /* UpdateCourseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAF42AFBCAC60069C81A /* UpdateCourseCategoryViewController.swift */; };
+		8BF2DAF72AFBCADA0069C81A /* UpdateCourseCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAF62AFBCADA0069C81A /* UpdateCourseCategoryView.xib */; };
+		8BF2DAF92AFBCAED0069C81A /* DeleteCourseCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAF82AFBCAED0069C81A /* DeleteCourseCategoryView.xib */; };
+		8BF2DAFB2AFBCB000069C81A /* DeleteCourseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAFA2AFBCB000069C81A /* DeleteCourseCategoryViewController.swift */; };
+		8BF2DAFD2AFBD9C90069C81A /* AddCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DAFC2AFBD9C90069C81A /* AddCourseViewController.swift */; };
+		8BF2DAFF2AFBD9DF0069C81A /* AddCourseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DAFE2AFBD9DF0069C81A /* AddCourseView.xib */; };
+		8BF2DB012AFBD9F80069C81A /* ViewCourseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DB002AFBD9F80069C81A /* ViewCourseView.xib */; };
+		8BF2DB032AFBDA0D0069C81A /* ViewCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DB022AFBDA0D0069C81A /* ViewCourseViewController.swift */; };
+		8BF2DB052AFBDA240069C81A /* UpdateCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DB042AFBDA240069C81A /* UpdateCourseViewController.swift */; };
+		8BF2DB072AFBDA3B0069C81A /* UpdateCourseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DB062AFBDA3B0069C81A /* UpdateCourseView.xib */; };
+		8BF2DB092AFBDA580069C81A /* DeleteCourseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DB082AFBDA580069C81A /* DeleteCourseView.xib */; };
+		8BF2DB0B2AFBDA6D0069C81A /* DeleteCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DB0A2AFBDA6D0069C81A /* DeleteCourseViewController.swift */; };
+		8BF2DB0D2AFBFEDF0069C81A /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DB0C2AFBFEDF0069C81A /* SearchView.xib */; };
+		8BF2DB0F2AFBFF7F0069C81A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DB0E2AFBFF7F0069C81A /* SearchViewController.swift */; };
+		8BF2DB112AFC01480069C81A /* SearchCollegeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DB102AFC01480069C81A /* SearchCollegeView.xib */; };
+		8BF2DB132AFC023E0069C81A /* SearchCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DB122AFC023E0069C81A /* SearchCollegeViewController.swift */; };
+		8BF2DB152AFC073E0069C81A /* SearchProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DB142AFC073E0069C81A /* SearchProgramViewController.swift */; };
+		8BF2DB172AFC07520069C81A /* SearchProgramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DB162AFC07520069C81A /* SearchProgramView.xib */; };
+		8BF2DB192AFC08780069C81A /* SearchCourseCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DB182AFC08780069C81A /* SearchCourseCategoryView.xib */; };
+		8BF2DB1B2AFC08940069C81A /* SearchCourseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DB1A2AFC08940069C81A /* SearchCourseCategoryViewController.swift */; };
+		8BF2DB1D2AFC099D0069C81A /* SearchCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DB1C2AFC099D0069C81A /* SearchCourseViewController.swift */; };
+		8BF2DB1F2AFC09B00069C81A /* SearchCourseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2DB1E2AFC09B00069C81A /* SearchCourseView.xib */; };
+		8BF2DB212AFC159C0069C81A /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2DB202AFC159C0069C81A /* College.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BF2DA9B2AFABE610069C81A /* Using Interface Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Using Interface Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF2DA9E2AFABE610069C81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BF2DAA22AFABE610069C81A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BF2DAA52AFABE610069C81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BF2DAA72AFABE640069C81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BF2DAAA2AFABE640069C81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BF2DAAC2AFABE640069C81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF2DAB22AFAC4F50069C81A /* MainNib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainNib.xib; sourceTree = "<group>"; };
+		8BF2DAB62AFAF0720069C81A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8BF2DABA2AFB36DE0069C81A /* ManageCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCollegeViewController.swift; sourceTree = "<group>"; };
+		8BF2DABC2AFB52540069C81A /* ManageCollegeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageCollegeView.xib; sourceTree = "<group>"; };
+		8BF2DABE2AFB548D0069C81A /* ManageProgramView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageProgramView.xib; sourceTree = "<group>"; };
+		8BF2DAC02AFB553F0069C81A /* ManageCourseCategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageCourseCategoryView.xib; sourceTree = "<group>"; };
+		8BF2DAC42AFB56E90069C81A /* ManageProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageProgramViewController.swift; sourceTree = "<group>"; };
+		8BF2DAC62AFB57110069C81A /* ManageCourseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCourseCategoryViewController.swift; sourceTree = "<group>"; };
+		8BF2DAC82AFB57260069C81A /* ManageCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCourseViewController.swift; sourceTree = "<group>"; };
+		8BF2DACA2AFB5D8F0069C81A /* ManageCourseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageCourseView.xib; sourceTree = "<group>"; };
+		8BF2DACC2AFB62980069C81A /* AddCollegeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddCollegeView.xib; sourceTree = "<group>"; };
+		8BF2DACE2AFB676A0069C81A /* AddCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCollegeViewController.swift; sourceTree = "<group>"; };
+		8BF2DAD02AFB6A390069C81A /* ViewCollegeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewCollegeView.xib; sourceTree = "<group>"; };
+		8BF2DAD22AFB6A690069C81A /* ViewCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCollegeViewController.swift; sourceTree = "<group>"; };
+		8BF2DAD42AFB6FB00069C81A /* UpdateCollegeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateCollegeView.xib; sourceTree = "<group>"; };
+		8BF2DAD62AFB6FED0069C81A /* UpdateCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCollegeViewController.swift; sourceTree = "<group>"; };
+		8BF2DAD82AFB71750069C81A /* DeleteCollegeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteCollegeView.xib; sourceTree = "<group>"; };
+		8BF2DADA2AFB71C10069C81A /* DeleteCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCollegeViewController.swift; sourceTree = "<group>"; };
+		8BF2DADC2AFBC59A0069C81A /* AddProgramView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddProgramView.xib; sourceTree = "<group>"; };
+		8BF2DADE2AFBC5CC0069C81A /* AddProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProgramViewController.swift; sourceTree = "<group>"; };
+		8BF2DAE02AFBC5E60069C81A /* ViewProgramView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewProgramView.xib; sourceTree = "<group>"; };
+		8BF2DAE22AFBC5FE0069C81A /* ViewProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProgramViewController.swift; sourceTree = "<group>"; };
+		8BF2DAE42AFBC61C0069C81A /* UpdateProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProgramViewController.swift; sourceTree = "<group>"; };
+		8BF2DAE62AFBC6320069C81A /* UpdateProgramView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateProgramView.xib; sourceTree = "<group>"; };
+		8BF2DAE82AFBC64B0069C81A /* DeleteProgramView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteProgramView.xib; sourceTree = "<group>"; };
+		8BF2DAEA2AFBC6630069C81A /* DeleteProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteProgramViewController.swift; sourceTree = "<group>"; };
+		8BF2DAEC2AFBCA780069C81A /* AddCourseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseCategoryViewController.swift; sourceTree = "<group>"; };
+		8BF2DAEE2AFBCA8C0069C81A /* AddCourseCategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddCourseCategoryView.xib; sourceTree = "<group>"; };
+		8BF2DAF02AFBCAA10069C81A /* ViewCourseCategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewCourseCategoryView.xib; sourceTree = "<group>"; };
+		8BF2DAF22AFBCAB40069C81A /* ViewCourseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCourseCategoryViewController.swift; sourceTree = "<group>"; };
+		8BF2DAF42AFBCAC60069C81A /* UpdateCourseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCourseCategoryViewController.swift; sourceTree = "<group>"; };
+		8BF2DAF62AFBCADA0069C81A /* UpdateCourseCategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateCourseCategoryView.xib; sourceTree = "<group>"; };
+		8BF2DAF82AFBCAED0069C81A /* DeleteCourseCategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteCourseCategoryView.xib; sourceTree = "<group>"; };
+		8BF2DAFA2AFBCB000069C81A /* DeleteCourseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCourseCategoryViewController.swift; sourceTree = "<group>"; };
+		8BF2DAFC2AFBD9C90069C81A /* AddCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseViewController.swift; sourceTree = "<group>"; };
+		8BF2DAFE2AFBD9DF0069C81A /* AddCourseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddCourseView.xib; sourceTree = "<group>"; };
+		8BF2DB002AFBD9F80069C81A /* ViewCourseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewCourseView.xib; sourceTree = "<group>"; };
+		8BF2DB022AFBDA0D0069C81A /* ViewCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCourseViewController.swift; sourceTree = "<group>"; };
+		8BF2DB042AFBDA240069C81A /* UpdateCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCourseViewController.swift; sourceTree = "<group>"; };
+		8BF2DB062AFBDA3B0069C81A /* UpdateCourseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateCourseView.xib; sourceTree = "<group>"; };
+		8BF2DB082AFBDA580069C81A /* DeleteCourseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteCourseView.xib; sourceTree = "<group>"; };
+		8BF2DB0A2AFBDA6D0069C81A /* DeleteCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCourseViewController.swift; sourceTree = "<group>"; };
+		8BF2DB0C2AFBFEDF0069C81A /* SearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchView.xib; sourceTree = "<group>"; };
+		8BF2DB0E2AFBFF7F0069C81A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8BF2DB102AFC01480069C81A /* SearchCollegeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCollegeView.xib; sourceTree = "<group>"; };
+		8BF2DB122AFC023E0069C81A /* SearchCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollegeViewController.swift; sourceTree = "<group>"; };
+		8BF2DB142AFC073E0069C81A /* SearchProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProgramViewController.swift; sourceTree = "<group>"; };
+		8BF2DB162AFC07520069C81A /* SearchProgramView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchProgramView.xib; sourceTree = "<group>"; };
+		8BF2DB182AFC08780069C81A /* SearchCourseCategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCourseCategoryView.xib; sourceTree = "<group>"; };
+		8BF2DB1A2AFC08940069C81A /* SearchCourseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCourseCategoryViewController.swift; sourceTree = "<group>"; };
+		8BF2DB1C2AFC099D0069C81A /* SearchCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCourseViewController.swift; sourceTree = "<group>"; };
+		8BF2DB1E2AFC09B00069C81A /* SearchCourseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCourseView.xib; sourceTree = "<group>"; };
+		8BF2DB202AFC159C0069C81A /* College.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BF2DA982AFABE610069C81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BF2DA922AFABE610069C81A = {
+			isa = PBXGroup;
+			children = (
+				8BF2DA9D2AFABE610069C81A /* Using Interface Builder */,
+				8BF2DA9C2AFABE610069C81A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BF2DA9C2AFABE610069C81A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2DA9B2AFABE610069C81A /* Using Interface Builder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BF2DA9D2AFABE610069C81A /* Using Interface Builder */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2DA9E2AFABE610069C81A /* AppDelegate.swift */,
+				8BF2DB202AFC159C0069C81A /* College.swift */,
+				8BF2DAA22AFABE610069C81A /* ViewController.swift */,
+				8BF2DAA42AFABE610069C81A /* Main.storyboard */,
+				8BF2DAA72AFABE640069C81A /* Assets.xcassets */,
+				8BF2DAA92AFABE640069C81A /* LaunchScreen.storyboard */,
+				8BF2DAAC2AFABE640069C81A /* Info.plist */,
+				8BF2DAB62AFAF0720069C81A /* MainViewController.swift */,
+				8BF2DAB22AFAC4F50069C81A /* MainNib.xib */,
+				8BF2DB0C2AFBFEDF0069C81A /* SearchView.xib */,
+				8BF2DB0E2AFBFF7F0069C81A /* SearchViewController.swift */,
+				8BF2DB102AFC01480069C81A /* SearchCollegeView.xib */,
+				8BF2DB122AFC023E0069C81A /* SearchCollegeViewController.swift */,
+				8BF2DB142AFC073E0069C81A /* SearchProgramViewController.swift */,
+				8BF2DB162AFC07520069C81A /* SearchProgramView.xib */,
+				8BF2DB182AFC08780069C81A /* SearchCourseCategoryView.xib */,
+				8BF2DB1A2AFC08940069C81A /* SearchCourseCategoryViewController.swift */,
+				8BF2DB1C2AFC099D0069C81A /* SearchCourseViewController.swift */,
+				8BF2DB1E2AFC09B00069C81A /* SearchCourseView.xib */,
+				8BF2DABA2AFB36DE0069C81A /* ManageCollegeViewController.swift */,
+				8BF2DABC2AFB52540069C81A /* ManageCollegeView.xib */,
+				8BF2DAC42AFB56E90069C81A /* ManageProgramViewController.swift */,
+				8BF2DABE2AFB548D0069C81A /* ManageProgramView.xib */,
+				8BF2DADC2AFBC59A0069C81A /* AddProgramView.xib */,
+				8BF2DADE2AFBC5CC0069C81A /* AddProgramViewController.swift */,
+				8BF2DAE02AFBC5E60069C81A /* ViewProgramView.xib */,
+				8BF2DAE22AFBC5FE0069C81A /* ViewProgramViewController.swift */,
+				8BF2DAE42AFBC61C0069C81A /* UpdateProgramViewController.swift */,
+				8BF2DAE62AFBC6320069C81A /* UpdateProgramView.xib */,
+				8BF2DAE82AFBC64B0069C81A /* DeleteProgramView.xib */,
+				8BF2DAEA2AFBC6630069C81A /* DeleteProgramViewController.swift */,
+				8BF2DAC02AFB553F0069C81A /* ManageCourseCategoryView.xib */,
+				8BF2DAC62AFB57110069C81A /* ManageCourseCategoryViewController.swift */,
+				8BF2DAEE2AFBCA8C0069C81A /* AddCourseCategoryView.xib */,
+				8BF2DAEC2AFBCA780069C81A /* AddCourseCategoryViewController.swift */,
+				8BF2DAF02AFBCAA10069C81A /* ViewCourseCategoryView.xib */,
+				8BF2DAF22AFBCAB40069C81A /* ViewCourseCategoryViewController.swift */,
+				8BF2DAF42AFBCAC60069C81A /* UpdateCourseCategoryViewController.swift */,
+				8BF2DAF62AFBCADA0069C81A /* UpdateCourseCategoryView.xib */,
+				8BF2DAF82AFBCAED0069C81A /* DeleteCourseCategoryView.xib */,
+				8BF2DAFA2AFBCB000069C81A /* DeleteCourseCategoryViewController.swift */,
+				8BF2DAC82AFB57260069C81A /* ManageCourseViewController.swift */,
+				8BF2DACA2AFB5D8F0069C81A /* ManageCourseView.xib */,
+				8BF2DAFE2AFBD9DF0069C81A /* AddCourseView.xib */,
+				8BF2DAFC2AFBD9C90069C81A /* AddCourseViewController.swift */,
+				8BF2DB002AFBD9F80069C81A /* ViewCourseView.xib */,
+				8BF2DB022AFBDA0D0069C81A /* ViewCourseViewController.swift */,
+				8BF2DB042AFBDA240069C81A /* UpdateCourseViewController.swift */,
+				8BF2DB062AFBDA3B0069C81A /* UpdateCourseView.xib */,
+				8BF2DB0A2AFBDA6D0069C81A /* DeleteCourseViewController.swift */,
+				8BF2DB082AFBDA580069C81A /* DeleteCourseView.xib */,
+				8BF2DACC2AFB62980069C81A /* AddCollegeView.xib */,
+				8BF2DACE2AFB676A0069C81A /* AddCollegeViewController.swift */,
+				8BF2DAD02AFB6A390069C81A /* ViewCollegeView.xib */,
+				8BF2DAD22AFB6A690069C81A /* ViewCollegeViewController.swift */,
+				8BF2DAD62AFB6FED0069C81A /* UpdateCollegeViewController.swift */,
+				8BF2DAD42AFB6FB00069C81A /* UpdateCollegeView.xib */,
+				8BF2DAD82AFB71750069C81A /* DeleteCollegeView.xib */,
+				8BF2DADA2AFB71C10069C81A /* DeleteCollegeViewController.swift */,
+			);
+			path = "Using Interface Builder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BF2DA9A2AFABE610069C81A /* Using Interface Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF2DAAF2AFABE640069C81A /* Build configuration list for PBXNativeTarget "Using Interface Builder" */;
+			buildPhases = (
+				8BF2DA972AFABE610069C81A /* Sources */,
+				8BF2DA982AFABE610069C81A /* Frameworks */,
+				8BF2DA992AFABE610069C81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Using Interface Builder";
+			productName = "Using Interface Builder";
+			productReference = 8BF2DA9B2AFABE610069C81A /* Using Interface Builder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BF2DA932AFABE610069C81A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8BF2DA9A2AFABE610069C81A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 8BF2DA962AFABE610069C81A /* Build configuration list for PBXProject "Using Interface Builder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BF2DA922AFABE610069C81A;
+			productRefGroup = 8BF2DA9C2AFABE610069C81A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BF2DA9A2AFABE610069C81A /* Using Interface Builder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BF2DA992AFABE610069C81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2DAE72AFBC6320069C81A /* UpdateProgramView.xib in Resources */,
+				8BF2DACD2AFB62980069C81A /* AddCollegeView.xib in Resources */,
+				8BF2DAC12AFB553F0069C81A /* ManageCourseCategoryView.xib in Resources */,
+				8BF2DABF2AFB548D0069C81A /* ManageProgramView.xib in Resources */,
+				8BF2DB092AFBDA580069C81A /* DeleteCourseView.xib in Resources */,
+				8BF2DB012AFBD9F80069C81A /* ViewCourseView.xib in Resources */,
+				8BF2DB0D2AFBFEDF0069C81A /* SearchView.xib in Resources */,
+				8BF2DAD12AFB6A390069C81A /* ViewCollegeView.xib in Resources */,
+				8BF2DAE12AFBC5E60069C81A /* ViewProgramView.xib in Resources */,
+				8BF2DACB2AFB5D8F0069C81A /* ManageCourseView.xib in Resources */,
+				8BF2DABD2AFB52540069C81A /* ManageCollegeView.xib in Resources */,
+				8BF2DAF72AFBCADA0069C81A /* UpdateCourseCategoryView.xib in Resources */,
+				8BF2DAEF2AFBCA8C0069C81A /* AddCourseCategoryView.xib in Resources */,
+				8BF2DADD2AFBC59A0069C81A /* AddProgramView.xib in Resources */,
+				8BF2DAAB2AFABE640069C81A /* LaunchScreen.storyboard in Resources */,
+				8BF2DB1F2AFC09B00069C81A /* SearchCourseView.xib in Resources */,
+				8BF2DB072AFBDA3B0069C81A /* UpdateCourseView.xib in Resources */,
+				8BF2DAA82AFABE640069C81A /* Assets.xcassets in Resources */,
+				8BF2DAD52AFB6FB00069C81A /* UpdateCollegeView.xib in Resources */,
+				8BF2DB112AFC01480069C81A /* SearchCollegeView.xib in Resources */,
+				8BF2DAF92AFBCAED0069C81A /* DeleteCourseCategoryView.xib in Resources */,
+				8BF2DAFF2AFBD9DF0069C81A /* AddCourseView.xib in Resources */,
+				8BF2DAE92AFBC64B0069C81A /* DeleteProgramView.xib in Resources */,
+				8BF2DAF12AFBCAA10069C81A /* ViewCourseCategoryView.xib in Resources */,
+				8BF2DAB32AFAC4F50069C81A /* MainNib.xib in Resources */,
+				8BF2DAA62AFABE610069C81A /* Main.storyboard in Resources */,
+				8BF2DB192AFC08780069C81A /* SearchCourseCategoryView.xib in Resources */,
+				8BF2DB172AFC07520069C81A /* SearchProgramView.xib in Resources */,
+				8BF2DAD92AFB71750069C81A /* DeleteCollegeView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BF2DA972AFABE610069C81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2DAE52AFBC61C0069C81A /* UpdateProgramViewController.swift in Sources */,
+				8BF2DAB72AFAF0720069C81A /* MainViewController.swift in Sources */,
+				8BF2DAF52AFBCAC60069C81A /* UpdateCourseCategoryViewController.swift in Sources */,
+				8BF2DAF32AFBCAB40069C81A /* ViewCourseCategoryViewController.swift in Sources */,
+				8BF2DB132AFC023E0069C81A /* SearchCollegeViewController.swift in Sources */,
+				8BF2DADF2AFBC5CC0069C81A /* AddProgramViewController.swift in Sources */,
+				8BF2DAC92AFB57260069C81A /* ManageCourseViewController.swift in Sources */,
+				8BF2DABB2AFB36DE0069C81A /* ManageCollegeViewController.swift in Sources */,
+				8BF2DAFB2AFBCB000069C81A /* DeleteCourseCategoryViewController.swift in Sources */,
+				8BF2DAA32AFABE610069C81A /* ViewController.swift in Sources */,
+				8BF2DADB2AFB71C10069C81A /* DeleteCollegeViewController.swift in Sources */,
+				8BF2DB032AFBDA0D0069C81A /* ViewCourseViewController.swift in Sources */,
+				8BF2DAED2AFBCA780069C81A /* AddCourseCategoryViewController.swift in Sources */,
+				8BF2DB052AFBDA240069C81A /* UpdateCourseViewController.swift in Sources */,
+				8BF2DAEB2AFBC6630069C81A /* DeleteProgramViewController.swift in Sources */,
+				8BF2DACF2AFB676A0069C81A /* AddCollegeViewController.swift in Sources */,
+				8BF2DAE32AFBC5FE0069C81A /* ViewProgramViewController.swift in Sources */,
+				8BF2DAD72AFB6FED0069C81A /* UpdateCollegeViewController.swift in Sources */,
+				8BF2DB1D2AFC099D0069C81A /* SearchCourseViewController.swift in Sources */,
+				8BF2DAC52AFB56E90069C81A /* ManageProgramViewController.swift in Sources */,
+				8BF2DB0F2AFBFF7F0069C81A /* SearchViewController.swift in Sources */,
+				8BF2DB1B2AFC08940069C81A /* SearchCourseCategoryViewController.swift in Sources */,
+				8BF2DAC72AFB57110069C81A /* ManageCourseCategoryViewController.swift in Sources */,
+				8BF2DAFD2AFBD9C90069C81A /* AddCourseViewController.swift in Sources */,
+				8BF2DB0B2AFBDA6D0069C81A /* DeleteCourseViewController.swift in Sources */,
+				8BF2DA9F2AFABE610069C81A /* AppDelegate.swift in Sources */,
+				8BF2DAD32AFB6A690069C81A /* ViewCollegeViewController.swift in Sources */,
+				8BF2DB212AFC159C0069C81A /* College.swift in Sources */,
+				8BF2DB152AFC073E0069C81A /* SearchProgramViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BF2DAA42AFABE610069C81A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF2DAA52AFABE610069C81A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BF2DAA92AFABE640069C81A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF2DAAA2AFABE640069C81A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BF2DAAD2AFABE640069C81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BF2DAAE2AFABE640069C81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BF2DAB02AFABE640069C81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Using Interface Builder/Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = MainNib;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = MainNib.xib;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Using-Interface-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BF2DAB12AFABE640069C81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Using Interface Builder/Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = MainNib;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = MainNib.xib;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Using-Interface-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BF2DA962AFABE610069C81A /* Build configuration list for PBXProject "Using Interface Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF2DAAD2AFABE640069C81A /* Debug */,
+				8BF2DAAE2AFABE640069C81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF2DAAF2AFABE640069C81A /* Build configuration list for PBXNativeTarget "Using Interface Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF2DAB02AFABE640069C81A /* Debug */,
+				8BF2DAB12AFABE640069C81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BF2DA932AFABE610069C81A /* Project object */;
+}
