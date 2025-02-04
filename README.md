@@ -17,13 +17,12 @@ This app leverages data-driven personalization and modern technology to deliver 
 
 ✅ Intuitive UI/UX – Seamless navigation and a visually appealing interface built with React Native and Tailwind CSS.
 
-✅ Cross-Platform Compatibility – Works on both iOS and Android for a consistent mobile experience.
-
 ✅ Secure Authentication & Data Storage – Firebase integration ensures user privacy and data security.
 
 ✅ Performance Optimizations – Lazy loading, caching, and efficient state management with Redux for a smooth experience.
 
 By addressing common fitness barriers such as time constraints, lack of motivation, and ineffective planning, the Personalized Fitness App makes maintaining an active and healthy lifestyle more achievable and enjoyable.
+
 
 ![App Screenshot](Images/Img3.png)
 
